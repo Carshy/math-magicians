@@ -1,16 +1,15 @@
-/* eslint-disable no-restricted-globals */
-import React from 'react';
-import './Button.css';
+/* eslint-disable react/prop-types */
+/* eslint-disable jsx-quotes */
+/* eslint-disable react/prefer-stateless-function */
+import React, { Component } from 'react';
 
-const isOperator = (val) => !isNaN(val) || val === '.' || val === '=';
-
-const Button = (props) => {
-  <div className={`button-wrapper ${
-    isOperator(props.children) ? null : 'operator'
-  }`}
-  >
-    {props.children}
-  </div>;
-};
+class Button extends Component {
+  render() {
+    const { btnId, btnName } = this.props;
+    return (
+      <button className='btn' type='button' id={btnId}>{btnName}</button>
+    );
+  }
+}
 
 export default Button;
