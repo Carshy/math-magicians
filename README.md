@@ -45,16 +45,19 @@ Give a ⭐️ if you like this project!
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/Carshy/math-magicians/issues).
 
+## Show your support
+
+Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used 🔰
-- Inspiration 💘
-- Microverse program ⚡
-- My standup team 🏹
-- My family's support 🙌
+- This project is part of week 1 of module 3 in the Microverse study program.
+- Thanks to the Microverse team for the great curriculum 🙌.
+- Thanks to Code Reviewers for the insightful feedback ⚡.
+- A great thanks to My coding partners, morning session team, and standup team Partners for their contributions 💘.
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/Carshy/readme-template/blob/master/MIT.md) licensed.
