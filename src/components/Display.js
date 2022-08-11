@@ -1,7 +1,12 @@
-/* eslint-disable react/prop-types, react/prefer-stateless-function */
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
+import PropTypes from 'prop-types';
 
-class Display extends Component {
+class Display extends PureComponent {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
   render() {
     const { dId, currentValue } = this.props;
     return (
@@ -9,5 +14,10 @@ class Display extends Component {
     );
   }
 }
+
+Display.propTypes = {
+  dId: PropTypes.string.isRequired,
+  currentValue: PropTypes.string.number.isRequired,
+};
 
 export default Display;
