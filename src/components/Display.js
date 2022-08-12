@@ -9,13 +9,13 @@ class Display extends PureComponent {
 
   render() {
     const {
-      dId, total, next, operation,
+      dId, total, operation, next,
     } = this.props;
     return (
       <div id={dId}>
         {total}
-        {next}
         {operation}
+        {next}
       </div>
     );
   }
