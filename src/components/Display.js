@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 class Display extends PureComponent {
   constructor(props) {
@@ -15,9 +16,9 @@ class Display extends PureComponent {
   }
 }
 
-Display.propTypes = {
-  dId: PropTypes.string.isRequired,
-  currentValue: PropTypes.string.number.isRequired,
-};
+// Display.propTypes = {
+//   dId: PropTypes.string,
+//   currentValue: PropTypes.string.number,
+// };
 
 export default Display;

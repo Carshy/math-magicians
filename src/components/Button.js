@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 class Button extends Component {
   constructor(props) {
@@ -14,8 +15,8 @@ class Button extends Component {
     );
   }
 }
-Button.propTypes = {
-  btnId: PropTypes.string.isRequired,
-  btnName: PropTypes.string.number.isRequired,
-};
+// Button.propTypes = {
+//   btnId: PropTypes.string.isRequired,
+//   btnName: PropTypes.string.number.isRequired,
+// };
 export default Button;
