@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import React, { PureComponent } from 'react';
-// import PropTypes from 'prop-types';
 
 class Display extends PureComponent {
   constructor(props) {
@@ -9,16 +8,17 @@ class Display extends PureComponent {
   }
 
   render() {
-    const { dId, currentValue } = this.props;
+    const {
+      dId, total, next, operation,
+    } = this.props;
     return (
-      <div id={dId}>{currentValue}</div>
+      <div id={dId}>
+        {total}
+        {next}
+        {operation}
+      </div>
     );
   }
 }
-
-// Display.propTypes = {
-//   dId: PropTypes.string,
-//   currentValue: PropTypes.string.number,
-// };
 
 export default Display;

@@ -1,39 +1,47 @@
 import React, { Component } from 'react';
 import Button from './Button';
 import Display from './Display';
+import calculate from '../logic/calculate';
 
 class Calculator extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentValue: '0',
+      total: '0',
+      next: null,
+      operation: null,
     };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick = (value) => {
+    this.setState((prevState) => calculate(prevState, value));
   }
 
   render() {
-    const { currentValue } = this.state;
+    const { total, next, operation } = this.state;
     return (
       <div className="calculator-wrapper">
-        <Display dId="display-view" currentValue={currentValue} />
-        <Button btnId="clear" btnName="AC" />
-        <Button btnId="del" btnName="+/-" />
-        <Button btnId="del" btnName="%" />
-        <Button btnId="div" btnName="/" />
-        <Button btnId="seven" btnName="7" />
-        <Button btnId="eight" btnName="8" />
-        <Button btnId="nine" btnName="9" />
-        <Button btnId="mul" btnName="x" />
-        <Button btnId="four" btnName="4" />
-        <Button btnId="five" btnName="5" />
-        <Button btnId="six" btnName="6" />
-        <Button btnId="min" btnName="-" />
-        <Button btnId="one" btnName="1" />
-        <Button btnId="two" btnName="2" />
-        <Button btnId="three" btnName="3" />
-        <Button btnId="plus" btnName="+" />
-        <Button btnId="zero" btnName="0" />
-        <Button btnId="period" btnName="." />
-        <Button btnId="equal" btnName="=" />
+        <Display dId="display-view" total={total} next={next} operation={operation} />
+        <Button btnId="clear" btnName="AC" handleClick={this.handleClick} />
+        <Button btnId="del" btnName="+/-" handleClick={this.handleClick} />
+        <Button btnId="del" btnName="%" handleClick={this.handleClick} />
+        <Button btnId="div" btnName="/" handleClick={this.handleClick} />
+        <Button btnId="seven" btnName="7" handleClick={this.handleClick} />
+        <Button btnId="eight" btnName="8" handleClick={this.handleClick} />
+        <Button btnId="nine" btnName="9" handleClick={this.handleClick} />
+        <Button btnId="mul" btnName="x" handleClick={this.handleClick} />
+        <Button btnId="four" btnName="4" handleClick={this.handleClick} />
+        <Button btnId="five" btnName="5" handleClick={this.handleClick} />
+        <Button btnId="six" btnName="6" handleClick={this.handleClick} />
+        <Button btnId="min" btnName="-" handleClick={this.handleClick} />
+        <Button btnId="one" btnName="1" handleClick={this.handleClick} />
+        <Button btnId="two" btnName="2" handleClick={this.handleClick} />
+        <Button btnId="three" btnName="3" handleClick={this.handleClick} />
+        <Button btnId="plus" btnName="+" handleClick={this.handleClick} />
+        <Button btnId="zero" btnName="0" handleClick={this.handleClick} />
+        <Button btnId="period" btnName="." handleClick={this.handleClick} />
+        <Button btnId="equal" btnName="=" handleClick={this.handleClick} />
       </div>
     );
   }
