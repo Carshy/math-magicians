@@ -1,32 +1,51 @@
 # Math-Magicians
 
-"Math-Magicians" is an app that helps people solve numerical challenges. As a user, you can use the app to do math calculations. The app has a beautiful interface with interactive features.
+"Math magicians" is a web application for all mathematics enthusiasts. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
+The present project is part of the Microverse curriculum Module 3 Block 1. The main objective is putting hands on practice to build a web application using React.
+
+![screenshot](img/photo1.PNG)
 
 ## Built With
 
-- React
+- Html/CSS
 - JavaScript
-- CSS3
-- WebPack
-- JSX
+- React
+
+## Additional Tools
+
+- Webhint
+- Stylelint
+- Eslint
+- Lighthouse
+- Webpack
 
 ## Live Demo 
 
-[Live Demo App]()
+[Live Demo App](https://carshy.github.io/math-magicians/)
 
 ## Getting Started
-To get a local copy of this exercice, Please follow these simple example steps.
 
-1. Clone this repository or download the Zip folder:
+To get a local copy of this project:
 
-**``git@github.com:Carshy/Leaderboard-App.git``**
+Clone this repository or download the Zip folder:
+```
+https://github.com/Carshy/math-magicians.git
+```
+ 
+In the project directory, you can run:
 
-2. Navigate to folder location in your local machine:
+### `npm install`
 
-**``you@your-Pc-name:~$ cd <folder>``**
+### `npm start`
 
-3. Press Enter to navigate to your local clone.
+### `npm test`
+
+### `npm run build`
+
+### `npm run eject`
+
+### `npm run build` fails to minify
 
 That's it! You can play with it as you wish :smile:
 
@@ -34,9 +53,9 @@ That's it! You can play with it as you wish :smile:
 
 👤 **Collins Musoko**
 
-- GitHub: [@Collins Musoko](https://github.com/Carshy)
-- Twitter: [@CarshyCollins](https://twitter.com/CarshyCollins)
-- Linkedin: [Collins Musoko](https://www.linkedin.com/in/collins-musoko-864881120/)
+- GitHub: [@Github](https://github.com/Carshy)
+- Twitter: [@Twitter](https://twitter.com/CarshyCollins)
+- Linkedin: [Linkedin](https://www.linkedin.com/in/collins-musoko-864881120/)
 
 ## Show your support
 
