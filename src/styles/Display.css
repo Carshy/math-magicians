@@ -1,11 +1,11 @@
 #display-view {
-    display: grid;
-    justify-content: right;
-    align-items: center;
-    background: #858693;
-    grid-column: 1 / -1;
-    font-size: x-large;
-    padding: 12px;
-    color: #fff;
-    height: 80px;
-  }
+  display: grid;
+  justify-content: right;
+  align-items: center;
+  background: #858693;
+  grid-column: 1 / -1;
+  font-size: x-large;
+  padding: 12px;
+  color: #fff;
+  height: 80px;
+}

@@ -1,14 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Navigation.css';
 
 function Navigation() {
   return (
     <nav className="nav-section">
-      <a className="math-heading" href="/mathHeading">Math Magicians</a>
+      <a className="math-heading" href="/">Math Magicians</a>
       <ul className="nav-group">
-        <li><a href="/">Home</a></li>
-        <li><a href="/calculator">Calculator</a></li>
-        <li><a href="/quote">Quote</a></li>
+        <li>
+          <Link to="/" className="nav-link">Home</Link>
+        </li>
+        <li>
+          <Link to="/calculator" className="nav-link">Calculator</Link>
+        </li>
+        <li>
+          <Link to="/quote" className="nav-link">Quote</Link>
+        </li>
       </ul>
     </nav>
   );
