@@ -1,0 +1,32 @@
+.btn {
+  background: #f3f3f3;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid rgb(175, 173, 173);
+  font-weight: bold;
+  font-size: x-large;
+}
+
+#div,
+#mul,
+#min,
+#plus,
+#equal {
+  background: #e6873a;
+}
+
+#div:hover,
+#mul:hover,
+#min:hover,
+#plus:hover,
+#equal:hover {
+  background: #eb9f61;
+}
+
+.btn:hover {
+  background: rgba(223, 231, 238, 0.8);
+}
+
+#zero {
+  grid-column: span 2;
+}

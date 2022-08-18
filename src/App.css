@@ -1,5 +1,4 @@
-/* stylelint-disable */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +7,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -16,46 +15,4 @@ body {
 
 .App {
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.calculator-wrapper {
-  display: grid;
-  grid-template-columns: repeat(4, 90px);
-  grid-template-rows: minmax(10px, auto) repeat(5, 62px);
-}
-
-.btn {
-  background: #F3F3F3;
-  cursor: pointer;
-  outline: none;
-  border: 1px solid rgb(175, 173, 173);
-}
-
-#div, #mul, #min, #plus, #equal {
-  background: #e6873a;
-}
-
-#div:hover, #mul:hover, #min:hover, #plus:hover, #equal:hover {
-  background: #eb9f61;;
-}
-
-.btn:hover {
-  background: rgba(223, 231, 238, 0.8);
-}
-
-#zero {
-  grid-column: span 2;
-}
-
-#display-view {
-  background: #858693;
-  grid-column: 1 / -1;
-  font-size: 24px;
-  text-align: right;
-  padding: 12px;
-  color: #fff;
 }

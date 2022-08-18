@@ -1,0 +1,9 @@
+.math-quotes {
+  display: flex;
+  flex-direction: column;
+  padding: 8% 0 0 4%;
+}
+
+.quote-author {
+  font-weight: bold;
+}
