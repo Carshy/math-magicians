@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Calculator from './components/Calculator';
+// import Calculator from './components/Calculator';
 import './App.css';
 import Navigation from './components/Navigation';
+import Mathematics from './pages/Mathematics';
 
 class App extends Component {
   constructor(props) {
@@ -14,7 +15,7 @@ class App extends Component {
       <div>
         <Navigation />
         <div className="App">
-          <Calculator />
+          <Mathematics />
         </div>
       </div>
     );
