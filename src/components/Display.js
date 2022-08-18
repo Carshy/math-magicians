@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React, { PureComponent } from 'react';
+import '../styles/Display.css';
 
 class Display extends PureComponent {
   constructor(props) {
