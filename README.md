@@ -22,7 +22,9 @@ The present project is part of the Microverse curriculum Module 3 Block 1. The m
 
 ## Live Demo 
 
-[Live Demo App](https://carshy.github.io/math-magicians/)
+[Live Demo App on Github-Pages](https://carshy.github.io/math-magicians/)
+[Live Demo App on Heroku](https://math-magician-musoko.herokuapp.com/)
+[Live Demo App on Netlify](https://carshy.github.io/math-magicians/)
 
 ## Getting Started
 
