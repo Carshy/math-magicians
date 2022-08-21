@@ -53,6 +53,7 @@
   animation: textclip 4s linear infinite;
   display: inline-block;
   font-size: 30px;
+  cursor: pointer;
 }
 
 @keyframes textclip {

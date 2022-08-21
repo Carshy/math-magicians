@@ -5,7 +5,7 @@ import '../styles/Navigation.css';
 function Navigation() {
   return (
     <nav className="nav-section">
-      <Link to="/" className="math-heading">Math Magicians</Link>
+      <h2 className="math-heading">Math Magicians</h2>
       <ul className="nav-group">
         <li>
           <Link to="/" className="nav-link">Home</Link>
