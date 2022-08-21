@@ -4,7 +4,9 @@
 
 The present project is part of the Microverse curriculum Module 3 Block 1. The main objective is putting hands on practice to build a web application using React.
 
-![screenshot](img/photo1.PNG)
+![screenshot](img/photo2.PNG)
+
+![screenshot](img/photo3.PNG)
 
 ## Built With
 
@@ -23,8 +25,6 @@ The present project is part of the Microverse curriculum Module 3 Block 1. The m
 ## Live Demo 
 
 [Live Demo App on Github-Pages](https://carshy.github.io/math-magicians/)
-[Live Demo App on Heroku](https://math-magician-musoko.herokuapp.com/)
-[Live Demo App on Netlify](https://carshy.github.io/math-magicians/)
 
 ## Getting Started
 
