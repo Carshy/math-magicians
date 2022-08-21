@@ -2,4 +2,22 @@
   display: flex;
   justify-content: space-between;
   margin: 6% 4% 0 4%;
+  font-family: bold;
+  font-size: 44px;
+}
+
+.math-page h2 {
+  backdrop-filter: blur(2px);
+}
+
+.math-decos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 32%;
+  gap: 184px;
+}
+
+.math-decos p {
+  box-shadow: 0 0 15px #fff;
+  font-size: 33px;
 }

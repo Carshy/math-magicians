@@ -4,7 +4,7 @@ import '../styles/Home.css';
 function Home() {
   return (
     <div className="home-page">
-      <h2>Welcome to our page!</h2>
+      <h2 className="home-title">Welcome to our page!</h2>
       <p>
         While math is seen as a very pragmatic subject, many of these aims
         are far more conceptual in practice. So when it comes to math, do

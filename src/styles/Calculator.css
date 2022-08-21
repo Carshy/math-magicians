@@ -1,5 +1,10 @@
 .calculator-wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 100px);
-  grid-template-rows: minmax(10px, auto) repeat(5, 62px);
+  grid-template-columns: repeat(4, 79px);
+  grid-template-rows: minmax(10px, auto) repeat(5, 48px);
+  background-color: #000;
+  padding: 20px;
+  gap: 7px;
+  border-radius: 45px;
+  box-shadow: 0 0 15px #fff;
 }

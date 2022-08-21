@@ -11,6 +11,11 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-image: url("./images/mathweb2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+  backdrop-filter: blur(3px);
 }
 
 .App {

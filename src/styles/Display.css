@@ -1,11 +1,15 @@
 #display-view {
+  background-color: rgb(228, 255, 228);
   display: grid;
   justify-content: right;
   align-items: center;
-  background: #858693;
   grid-column: 1 / -1;
-  font-size: x-large;
-  padding: 12px;
-  color: #fff;
-  height: 80px;
+  color: #000;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 4rem;
+  border-radius: 15px;
+  height: 100px;
+  padding-right: 8px;
+  overflow: auto
 }

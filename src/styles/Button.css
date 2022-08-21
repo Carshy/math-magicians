@@ -1,10 +1,19 @@
 .btn {
-  background: #f3f3f3;
+  /* background: #f3f3f3; */
+  background-color: rgb(65, 64, 64);
   cursor: pointer;
   outline: none;
-  border: 1px solid rgb(175, 173, 173);
+  color: #fff;
   font-weight: bold;
   font-size: x-large;
+  border-radius: 10px 10px 15px 15px;
+  box-shadow: 0 2px 10px black;
+  border: 1px hidden;
+  
+}
+
+btn:hover {
+  background-color: grey;
 }
 
 #div,
@@ -21,10 +30,39 @@
 #plus:hover,
 #equal:hover {
   background: #eb9f61;
+  color: #000;
+}
+
+#zero:hover,
+#one:hover,
+#two:hover,
+#three:hover,
+#four:hover,
+#five:hover,
+#six:hover,
+#seven:hover,
+#eight:hover,
+#nine:hover,
+#period:hover,
+#plus:hover,
+#clear:hover,
+#del:hover,
+#div:hover,
+#equal:hover {
+  color: #000;
 }
 
 .btn:hover {
   background: rgba(223, 231, 238, 0.8);
+}
+
+#clear {
+  background-color: rgb(248, 24, 24);
+  border-top-left-radius: 20px;
+}
+
+#clear:hover {
+  background-color: rgb(185, 38, 38);
 }
 
 #zero {

@@ -4,7 +4,8 @@
   align-items: center;
   width: 100%;
   height: 80px;
-  background: #858693;
+  border: 4px solid #fff;
+  border-radius: 0 0 25px 25px;
 }
 
 .nav-group {
@@ -17,6 +18,15 @@
 .nav-link {
   color: #fff;
   font-weight: bold;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 26px;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(3px);
+}
+
+.nav-link:hover {
+  color: #e6873a;
 }
 
 .math-heading {
@@ -25,4 +35,28 @@
   font-weight: bold;
   padding-left: 4%;
   font-size: xx-large;
+  backdrop-filter: blur(3px);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: linear-gradient(
+    -225deg,
+    #fff 0%,
+    #e6873a 29%,
+    #fff 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+  display: inline-block;
+  font-size: 30px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
