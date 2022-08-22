@@ -1,7 +1,15 @@
 .math-quotes {
-  display: flex;
-  flex-direction: column;
+  text-align: center;
   padding: 8% 0 0 4%;
+}
+
+.our-quote {
+  font-weight: bold;
+  font-size: 44px;
+  box-shadow: 0 0 15px #fff;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 2%;
 }
 
 .quote-author {
