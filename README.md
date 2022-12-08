@@ -24,7 +24,7 @@ The present project is part of the Microverse curriculum Module 3 Block 1. The m
 
 ## Live Demo 
 
-Live Demo Link found [Here](https://carshy.github.io/math-magicians/)
+Live Demo Link found [Here](https://iridescent-sawine-6dbcb1.netlify.app/)
 
 ## Getting Started
 
